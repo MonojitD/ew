@@ -1,0 +1,53 @@
+/* For screen size less than 600px */
+@media only screen and (max-width: 600px) {
+  #my-nav .col-2 a {
+    text-decoration: none;
+    font-size: 2vw;
+  }
+  .sec-one .col-6 {
+    padding: 15px 0;
+    font-weight: 600;
+  }
+  .sec-one img {
+    height: 10vw;
+  }
+  .sec-two .text2 {
+    margin: 10vw 0;
+    font-size: 5vw;
+    font-weight: 600;
+  }
+  .sec-four .col-xl-6 {
+    margin-top: 20vw;
+  }
+  .sec-four .col-xl-6 img {
+    width: 100%;
+  }
+  .sec-four .card img {
+    width: 20%;
+  }
+  .sec-five .order1 {
+    order: 1;
+  }
+  .sec-five .order2 {
+    order: 3;
+  }
+  .sec-five .order3 {
+    order: 2;
+  }
+  .sec-nine .prommise {
+    margin: 3vw 0;
+    font-size: 5vw;
+  }
+  .sec-nine .card-title {
+    font-size: 4vw;
+  }
+  .sec-nine .card-text {
+    font-size: 3vw;
+  }
+  .collections ul li a {
+    font-size: 3vw;
+  }
+  .payment img {
+    width: 40%;
+  }
+}
